@@ -15,8 +15,7 @@ console.log(reverseString('Hello'));
 // Quick Method 2
 
 function reverseString(str) {
-  var answer = str.split('').reverse().join('');
-  return answer;
+  return str.split('').reverse().join('')
 }
 
 console.log(reverseString('hello'));
