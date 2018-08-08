@@ -11,7 +11,7 @@ function sonLuChallenge(arrayList) {
 
 }
 
-sonLuChallenge([51,28,73,44,65])
+sonLuChallenge([51,28,73,44,652])
 
 
 ---------------------------------
