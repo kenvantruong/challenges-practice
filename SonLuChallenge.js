@@ -1,9 +1,18 @@
-let list = [20,20,20,20,20];
+//Sum of Arrays
 
-let answer = 0;
+function sonLuChallenge(arrayList) {
+  let answer = 0;
 
-list.forEach(function(e){
-  answer += e;
-});
+  arrayList.forEach(function(e){
+    answer += e;
+  })
 
-console.log(answer);
+  console.log(answer);
+
+}
+
+sonLuChallenge([51,28,73,44,65])
+
+
+---------------------------------
+---------------------------------
