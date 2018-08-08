@@ -28,14 +28,18 @@ console.log(factorialize(5));
 
 // #3 Palindrome Check
 function palindrome(str) {
-  var reversed = str.split('').reverse().join('');
+  var reg = /[\W_]/g;
 
-  if(reversed === str) 
+  var smallStr = str.toLowerCase().replace(reg, "");
+
+  var reversed = smallStr.split('').reverse().join('');
+
+  if(reversed === smallStr) 
   return true
   return false;
 }
 
-console.log(palindrome("racecar"))
+console.log(palindrome("atoyota"))
 /* ------------------------- */
 
 // #4 Find Longest Word
