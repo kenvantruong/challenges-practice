@@ -1,4 +1,4 @@
------------------------------------
+//-----------------------------------
 //method 1 [for loop]
 
 function reverseString(str) {
@@ -13,7 +13,7 @@ function reverseString(str) {
 
 console.log(reverseString('!olleH'));
 
------------------------------------
+//-----------------------------------
 //method 2 [let of]
 
 function reverseString(arr){
@@ -27,7 +27,7 @@ function reverseString(arr){
 console.log(reverseString('Hello'));
 
 
------------------------------------
+//-----------------------------------
 // Quick Method 3 [shortcut]
 
 function reverseString(str) {
