@@ -28,13 +28,13 @@ console.log(factorialize(5));
 
 // #3 Palindrome Check
 function palindrome(str) {
-  var reg = /[\W_]/g;
+  var reg = /[^A-Za-z0–9]/g
 
-  var smallStr = str.toLowerCase().replace(reg, "");
+  var word = str.toLowerCase().replace(reg, "");
 
-  var reversed = smallStr.split('').reverse().join('');
+  var reversed = word.split('').reverse().join('');
 
-  if(reversed === smallStr) 
+  if(reversed === word) 
   return true
   return false;
 }
