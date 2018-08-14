@@ -1,45 +1,24 @@
-// #1 Reverse a String
-function reverseAString(str){
-  var answer = '';
+// #1 Sum Of Arrays
+let temp = 81;
+let isCold = temp <= 81
+let isHot = temp >= 82
 
-  for(var i = str.length - 1; i >= 0; i--){
-    answer += str[i]
-  }
+if (isHot) {
+  console.log('Its HOT AF');
+} 
 
-  return answer;
+if (isCold) {
+console.log('It\'s actually cold');
 }
-console.log(reverseAString('Ken'));
 
 /* ------------------------- */
 
 // #2 Factorialize
-function factorialize(num){
-  let result = 1;
 
-  for(var i = 1; i <= num; i++){
-    result *= i;
-  }
-
-  return result;
-}
-
-console.log(factorialize(5));
 /* ------------------------- */
 
 // #3 Palindrome Check
-function palindrome(str) {
-  var reg = /[^A-Za-z0–9]/g
 
-  var word = str.toLowerCase().replace(reg, "");
-
-  var reversed = word.split('').reverse().join('');
-
-  if(reversed === word) 
-  return true
-  return false;
-}
-
-console.log(palindrome("atoyota"))
 /* ------------------------- */
 
 // #4 Find Longest Word
